@@ -1,0 +1,42 @@
+{"intents": [
+    {"tag":"greetings",
+    "patterns":["Hello","Hi","hey","good day","Greetings","What's  up?","how is it going"],
+    "response":["hello!","hey","What can I  do for you"]  
+},
+{"tag":"goodbye",
+    "patterns":["bye","see you later","good bye","good day","i am leaving ","Have  a good  day","see ya"],
+    "response":["Good bye!","sad to see you go :(","Talk to you Later"]  
+},
+{"tag":"age",
+    "patterns":["how old","What is Your Age ?","age?","how old","how old are you "],
+    "response":["My Owner Viraaj is 21 Years old!","21 Years!"]  
+},
+{"tag":"name",
+    "patterns":["What is your name","What should i call you","whats your name?","who are you?","Can you tell me what should i call you?"],
+    "response":["You can call me Friday!","I'm Friday the assistant of Viraj!","I'm Friday!"]  
+},
+{"tag":"shop",
+    "patterns":["I'd like to buy something","What are your products?","what do you recommend?","what are you selling?"],
+    "response":["We have some cool projects..........."]  
+},
+{"tag":"open",
+    "patterns":["Can you please open","open this","open"],
+    "response":["Please wait we are working on that","openning","wait..","enjoy"]  
+},
+{"tag":"play",
+    "patterns":["Can you please play","play this","play"],
+    "response":["Please wait we are working on that","playing","wait..","enjoy"]  
+},
+{"tag":"email",
+    "patterns":["Send Email","Please Email ","can you please send Email"],
+    "response":["Please wait we are working on that","Sending","wait.."]
+},
+{"tag":"Meassage",
+    "patterns":["Can you please send this meassage ","Send Meassage"],
+    "response":["Please wait we are working on that","Sending","wait"]  
+},
+{"tag":"terminate",
+    "patterns":["Terminate Friday ","Terminate","Shut Down ","Quit"],
+    "response":["Please wait we are working on that","Quiting","wait","Terminatting ","Bye"]  
+}
+]}
